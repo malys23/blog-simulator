@@ -1,15 +1,22 @@
-{ "name": "blog-simulator",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index"
-  },
-  "author": "Alyona Maliassova",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^2.2.2",
-    "ejs": "^4.0.1",
-    "express": "^5.2.1"
-  }
+{
+"name":"blog-simulator",
+"version":"1.0.0",
+"main":"index.js",
+"type":"module",
+"scripts":{"start":"node index"},
+"author":"Alyona Maliassova",
+"license":"ISC",
+"engines": { "node": ">=20"},
+"dependencies":{
+    "body-parser":"^2.2.2",
+    "ejs":"^4.0.1",
+    "express":"^5.3.0"},
+"description":"Server-rendered blog app built with Node.js, Express and EJS",
+"repository":{
+    "type":"git",
+    "url":"git+https://github.com/malys23/blog-simulator.git"},
+    "keywords":[],
+    "bugs":{
+        "url":"https://github.com/malys23/blog-simulator/issues"},
+        "homepage":"https://github.com/malys23/blog-simulator#readme"
 }
