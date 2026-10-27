@@ -3,6 +3,8 @@ This project is a simple blog web application built with Node.js, Express.js, an
 <br> <br>
 The application emphasizes server-side rendering with EJS, structured routing with Express, and thoughtful styling to provide a smooth user experience across both desktop and mobile devices.<br>
 
+Active Link: [Blog Simulator](https://blog-simulator.onrender.com/)
+
 ## Features
 - Create new blog posts <br>
 - View all posts on the home page <br>
@@ -19,6 +21,6 @@ The application emphasizes server-side rendering with EJS, structured routing wi
 ## Learning Outcomes
 - Developed CRUD functionality by implementing post creation, viewing, editing, and deletion. <br>
 - Improved understanding of application state management without a database by storing data in memory.<br>
-- Imortance of planning stage for things to run smoothly - planning the design before implementing anything.<br>
+- Importance of planning stage for things to run smoothly - planning the design before implementing anything.<br>
 <br>
-Active Link: https://blog-simulator.onrender.com/
+
