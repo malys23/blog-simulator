@@ -84,7 +84,7 @@ app.get("/edit/:id", (req, res) =>{
 
 //Submit Edit
 app.post("/update", (req, res) => {
-    const index = validIndex(req.body.id);
+    const index = validIndex(req.body.index);
     const title = (req.body.title || "").trim();
     const text = (req.body.text || "").trim();
     if (index !== null && title && text) editPost(index, title, text);
