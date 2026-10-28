@@ -76,7 +76,7 @@ app.get("/view/:id", (req, res) => {
 
 //Post Edit
 app.get("/edit/:id", (req, res) =>{
-    const index = validIndex(req.params.index);
+    const index = validIndex(req.params.id);
     if (index === null) return res.status(404).send("Post not found");
     const post = posts[index];
     res.render("thePost.ejs", {posts: posts, postID: index, title: post.title, text: post.text});

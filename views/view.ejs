@@ -13,7 +13,7 @@
         <p><%= text %></p>
         <p class="post-count">/ Post Number <%=postIDNew%> /</p>
         <div class="editing">
-            <form action="/delete" method="POST">
+            <form action="/delete" method="POST" onsubmit="return confirm('Delete this post?')">
               <input type="text" name="postID" hidden value="<%=postID%>">
               <input type="submit" class="btn-delete btn-width" value="Delete">
             </form>
